@@ -19,8 +19,8 @@ public class ChatbotGUI extends javax.swing.JFrame {
     /**
      * Creates new form ChatbotGUI
      */
-    private static final String API_KEY = "Your API KEY";
-    private static final String API_URL = "Your API URL";
+    private static final String API_KEY = "Your API KEY"; // add your API keys here .. for that read the README 
+    private static final String API_URL = "Your API URL"; // add your API keys here .. for that read the README
     public ChatbotGUI() {
         initComponents();
       
