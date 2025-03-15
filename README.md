@@ -1,42 +1,44 @@
-# Chatbot Project
 
-This is a simple chatbot project that interacts with an API to generate responses based on user input.
+# Java Chatbot
 
-#Installation
+Java Chatbot is a desktop-based, AI-powered chatbot built using Java and Swing. It integrates secure API calls to an external AI service to generate dynamic responses based on user input. The project follows best practices for secure API key management and features a modern dark-themed UI.
 
-Clone the repository.
+## Features
 
-Open the project folder in your preferred code editor.
+- **User-Friendly Interface:**  
+  A dark-themed Swing GUI with user messages right-aligned and bot responses left-aligned.
+  
+- **Dynamic AI Responses:**  
+  Fetch real-time responses from an external AI service via secure API integration.
 
-Ensure you have a stable internet connection.
+- **Secure API Key Management:**  
+  API keys are stored securely using environment variables or configuration files.
 
-#Setup
+- **Extensible Design:**  
+  The architecture allows for easy enhancements such as chat history storage via JDBC, advanced NLP, and more.
 
-Add your API key and API URL in the appropriate section of the JavaScript or Java backend.
+## Technologies Used
 
-Do not expose your API key in the frontend.
+- **Java SE** – Core language for application logic.
+- **Java Swing** – GUI framework for building the desktop interface.
+- **HTTP API Integration** – Using `HttpURLConnection` for sending API requests.
+- **JSON Parsing** – Using the `org.json` library to process API responses.
 
-Use environment variables or configuration files to store sensitive information securely.
+## Getting Started
 
-#Usage
+### Prerequisites
 
-Open the index.html file in a web browser.
+- Java JDK 8 or later.
+- A valid API key from your chosen AI service.
+- (Optional) MySQL if you plan to implement chat history storage via JDBC.
 
-Type a message in the input box and click 'Send'.
+### Setup
 
-The chatbot will respond using the configured API.
+1. **Clone the Repository:**
+   ```sh
+   git clone https://github.com/117ABHISHEK/Java-Chatbot.git
+   cd Java-Chatbot
 
-#Security Best Practices
-
-Never hardcode API keys in your code.
-
-Use environment variables for storing sensitive data.
-
-Implement backend authentication to restrict API access.
-
-Hide keys in configuration files and keep them out of version control using .gitignore.
-
-Notes
 
 This chatbot is designed for educational purposes.
 
