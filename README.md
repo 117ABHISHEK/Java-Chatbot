@@ -16,8 +16,8 @@ Java Chatbot is a desktop-based, AI-powered chatbot built using Java and Swing. 
 
 - **Extensible Design:**  
   The architecture allows for easy enhancements such as chat history storage via JDBC, advanced NLP, and more.
-- **API :**
-   Use OpenRouter for free API's and Free Chatbot / ML Models
+- **API:**
+  Use OpenRouter for free API's and Free Chatbot / ML Models.
 
 ## Technologies Used
 
